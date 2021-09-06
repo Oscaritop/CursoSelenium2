@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite curso Automatizacion" parallel="false">
+
+  <test name="Pruebas regresion">
+    <classes>
+      <class name="tests.Tests"/>
+    </classes>
+  </test> 
+   
+</suite> <!-- Suite -->

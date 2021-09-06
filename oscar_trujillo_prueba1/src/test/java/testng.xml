@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="tests.CasosPrueba">
+				<methods>
+					<include name="CP001_Login_Contrasena_Incorrecta" />
+					<include name="CP002_login_Rut_Incorrecto" />
+					<include name="CP003_Ingreso_Invitado" />
+					<include name="CP004_Recuperar_Clave"/>
+					<include name="CP005_Login_Correcto"/>
+				</methods>
+
+			</class>
+
+			<class name="tests.EjemploSeleniumTestngClass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

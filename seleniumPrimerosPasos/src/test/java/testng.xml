@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="clase5.EjemploSelenium_clase5">
+				<methods>
+					<include
+						name="CP001_ProcesoRetomaContratacion_usuarioBloqueado" />
+					<include name="CP002_Algo" />
+					<include name="CP003_Algo" />
+				</methods>
+
+			</class>
+
+			<class name="clase5.EjemploSeleniumTestngClass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
